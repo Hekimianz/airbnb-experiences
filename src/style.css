@@ -1,7 +1,98 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98px 7.45px rgba(0, 0, 0, 0.1);
+}
+
+.nav--logo {
+  max-width: 100px;
+}
+
+.gray {
+  color: #918e9b;
+}
+
+section {
+  padding: 20px;
+}
+
+.hero--cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--img {
+  max-width: 400px;
+  align-self: center;
+}
+
+.hero--header {
+  margin-bottom: 16px;
+}
+
+.hero--text {
+  margin-top: 0;
+  max-width: 320px;
+}
+
+.card--img {
+  width: 176px;
+  height: 235px;
+  border-radius: 9px;
+  border: none;
+}
+
+.card--star {
+  width: 14px;
+  height: 14px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2px;
+}
+
+.card--score > span {
+  margin-left: 2px;
+  display: flex;
+  gap: 2px;
+}
+
+.card--score {
+  display: flex;
+  margin-left: 2px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card--reviews {
+  margin-top: 9px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.card--title {
+  font-weight: 200;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.card--pricing {
+  margin-top: 8px;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.card--pricing-bold {
+  font-weight: 600;
 }
