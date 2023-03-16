@@ -11,7 +11,11 @@ export default function Card(props) {
     <div className="card">
       {badgeText && <div className="card--badge">{badgeText}</div>}
       <img
+<<<<<<< HEAD
         src={process.env.PUBLIC_URL + `/images/${props.item.coverImg}`}
+=======
+        src={process.env.PUBLIC_URL + `./images/${props.item.coverImg}`}
+>>>>>>> d8d4a5be153815878a1307d7ae525863da6cd316
         className="card--image"
         alt="experience"
       />
