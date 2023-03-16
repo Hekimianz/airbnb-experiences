@@ -4,3 +4,4 @@ This project is a clone of Airbnb's experiences section. The purpose of this pro
 
 - The use of props
 - The creation of React components from an array
+- Conditional rendering
