@@ -6,21 +6,12 @@ import data from "./components/data.js";
 
 export default function App() {
   const cards = data.map((item) => {
-    return (
-      <Card
-        img={item.coverImg}
-        rating={item.stats.rating}
-        reviewCount={item.stats.reviewCount}
-        location={item.location}
-        title={item.title}
-        price={item.price}
-      />
-    );
+    return <Card key={item.id} item={item} />;
   });
   return (
     <div>
       <Navbar />
-      {/* <Hero /> */}
+      <Hero />
       <section className="cards-list">{cards}</section>
     </div>
   );

@@ -4,7 +4,7 @@ import airbnbLogo from "/Users/aramhekimian/repos/airbnb-experiences/src/assets/
 export default function Navbar() {
   return (
     <nav>
-      <img className="nav--logo" src={airbnbLogo} alt="airbnb logo" />;
+      <img className="nav--logo" src={airbnbLogo} alt="airbnb logo" />
     </nav>
   );
 }
