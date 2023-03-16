@@ -11,11 +11,7 @@ export default function Card(props) {
     <div className="card">
       {badgeText && <div className="card--badge">{badgeText}</div>}
       <img
-<<<<<<<<< Temporary merge branch 1
-        src={process.env.PUBLIC_URL + `./images/${props.item.coverImg}`}
-=========
         src={process.env.PUBLIC_URL + `/images/${props.item.coverImg}`}
->>>>>>>>> Temporary merge branch 2
         className="card--image"
         alt="experience"
       />
